@@ -1,4 +1,5 @@
-# Github siblings of the DataLad datasets managed by the the Predictive Neuroscience Lab
+# Datasets of the Predictive Neuroscience Lab
+*This GiHub organization conains the GitHub siblings of DataLad datasets. Most datasets require access credentials.*
 ----------------------
 ## Quickstart Guide
 - ✅ [Requirements](#requirements-for-all-datasets)
