@@ -69,6 +69,7 @@ datalad save .
 E.g. readme.md and dataset_description.json (this way these will be directly visible in github)
 ```bash
 git annex unannex readme.md
+datalad save .
 ```
 
 #### Create Special Remote sibling
