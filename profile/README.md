@@ -9,13 +9,13 @@
 
 ----------------------
 
-## Requirements for all datasets
-- dataset must be a DataLab dataset
+## Requirements for all datasets in the lab's RDM system
+- dataset must be a DataLad dataset
 - dataset must be in BIDS format (for derivative and non-imaging data: at least a dataset_description.json file must be there)
-- datasets must have a github sibling in this organization
+- datasets must have a GitHub sibling in this GH organization
 - datasets must have a reliable special remote (preferred: Coscine RDS-S3 or Amazon S3 for public datasets (e.g. clones of openneuro datasets)
 - datasets must have an [unannexed](https://handbook.datalad.org/en/latest/basics/101-136-filesystem.html) readme.md and dataset_description.json
-- GitHub repo description must be set to a short description of the dataset, ending with the sample size, when possible (n=xy)
+- GitHub repo description must be set to a short description of the dataset, ending with the sample size when possible (n=xy)
 
 ----------------------
 
