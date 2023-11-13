@@ -26,6 +26,7 @@ This does not download the actual data, only the "skeleton".
 ```bash
 datalad install -s git@github.com:pni-data/<dataset_name>.git <dataset_name>
 ```
+*If the dataset you are about to donwload is in a private github repo, you'll need to authenticate, as usual (e.g. with a Personal Access Token or a key).*
 
 #### 2. Change to the dataset directory and download the file(s) you want
 You can selectively download what you need (e.g. derivatives only).
@@ -33,9 +34,9 @@ You can selectively download what you need (e.g. derivatives only).
 cd <dataset_name>
 datalad get <path/to/file*>
 ```
-Depending on the dataset, you will be prompted for the S3 credentials to access the files. In this case, contact the dataset owner to obtain the (read or write) credentials and set them uplikee this:
+*Depending on the dataset, you will be prompted for the S3 credentials to access the files. In this case, contact the dataset owner to obtain the (read or write) credentials and set them uplikee this:*
 ```bash
-export AWS_ACCESS_KEY_ID="XXXXX-XXXX-XXXX-XXxx-XXXX"
+export AWS_ACCESS_KEY_ID="XXXXX-XXXX-XXXX-XXXX-XXXX"
 export AWS_SECRET_ACCESS_KEY="XXXXXXXX"
 ```
 Now you should be able to get the data.
