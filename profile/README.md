@@ -33,7 +33,12 @@ You can selectively download what you need (e.g. derivatives only).
 cd <dataset_name>
 datalad get <path/to/file*>
 ```
-Depending on the dataset, you will be prompted for the S3 credentials to access the files. Contact the dataset owner to obtain the (read or write) credentials.
+Depending on the dataset, you will be prompted for the S3 credentials to access the files. In this case, contact the dataset owner to obtain the (read or write) credentials and set them uplikee this:
+```bash
+export AWS_ACCESS_KEY_ID="XXXXX-XXXX-XXXX-XXxx-XXXX"
+export AWS_SECRET_ACCESS_KEY="XXXXXXXX"
+```
+Now you should be able to get the data.
 
 #### 3. Check the locations a file is stored at
 ```bash
