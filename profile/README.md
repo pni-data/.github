@@ -100,7 +100,7 @@ This is for RDM-purposes (listing, sharing, using issues, PRs, etc). The github 
 If that's not what you want, make the repo private with `--private`. See the DataLad [docs](https://docs.datalad.org/en/stable/generated/man/datalad-create-sibling-github.html) for details.
 
 Requirements:
-- you must be a member of the GitHub organization "pni-data"
+- you must be a member of the GitHub organization "pni-data" (or swap it your own profile or organization)
 - you need a valid GitHub [Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
 - the gitHub repo must not yet exist (the command creates it)
 
