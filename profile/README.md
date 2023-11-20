@@ -23,8 +23,10 @@
 
 #### 1. Install it with datalad based on the github handle
 This does not download the actual data, only the "skeleton".
+After the install command, you have to explictly tell datalad that you would like your github sibling (origin) to depend on the S3-sibling.
 ```bash
 datalad install -s git@github.com:pni-data/<dataset_name>.git <dataset_name>
+datalad siblings configure -s origin --publish-depends coscine-rds-s3
 ```
 *If the dataset you are about to donwload is in a private github repo, you'll need to authenticate, as usual (e.g. with a Personal Access Token or a key).*
 
@@ -58,7 +60,7 @@ datalad drop <path/to/file*>
 Just save your changes and push/publish it to the ggithub sibling. As the github sibling depends on the coscine-rds-s3 special remote, the following command will upload the actual data to thee s3 storage. 
 ```bash
 datalad save .
-datalad push --to github
+datalad push --to origin
 ```
 ----------------------
 
@@ -105,7 +107,7 @@ Requirements:
 - the gitHub repo must not yet exist (the command creates it)
 
 ```bash
-datalad create-sibling-github -d . --github-organization pni-data <dataset_name> --publish-depends coscine-rds-s3 --access-protocol ssh
+datalad create-sibling-github -d . --github-organization -s origin pni-data <dataset_name> --publish-depends coscine-rds-s3 --access-protocol ssh
 # here, your github token is needed
 ```
 
@@ -119,10 +121,10 @@ datalad siblings
 > .: github(-) [git@github.com:pni-data/datalad_test2.git (git)]
 
 #### Ready! Now you just need to push your data.
-We push/publish the unannexed data and the annexed "dataset skeleton" to github. As the github sibling depends on the coscine-rds-s3 special remote, the following command will upload the actual data to thee s3 storage (in machine-readable chunks and, if requested, in an encrypted format). 
+We push/publish the unannexed data and the annexed "dataset skeleton" to github. As the github sibling (origin) depends on the coscine-rds-s3 special remote, the following command will upload the actual data to thee s3 storage (in machine-readable chunks and, if requested, in an encrypted format). 
 
 ```bash
-datalad push --to github
+datalad push --to origin
 ```
 
 
