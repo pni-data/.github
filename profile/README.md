@@ -1,5 +1,9 @@
-# Datasets of the Predictive Neuroscience Lab
-*This GiHub organization conains the GitHub siblings of DataLad datasets. Most datasets require access credentials.*
+# TRR289 RDM
+*A collection of GitHub siblings of DataLad datasets. Included datasets require access credentials.*
+
+## Contens
+- [TRR289 datasets](https://github.com/search?q=topic%3Atrr289+org%3Apni-data&type=Repositories)
+
 ----------------------
 ## Quickstart Guide
 - ✅ [Requirements](#requirements-for-all-datasets)
