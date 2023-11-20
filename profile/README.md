@@ -30,6 +30,12 @@ datalad siblings configure -s origin --publish-depends coscine-rds-s3
 ```
 *If the dataset you are about to donwload is in a private github repo, you'll need to authenticate, as usual (e.g. with a Personal Access Token or a key).*
 
+####  1.a Set up Proxy (optional)
+*If your connection goes trough a proxy server, you'll need to allow its IP, to be able to communicatee with the S3 sibling.*
+```bash
+git config --add annex.security.allowed-ip-addresses <proxy-server-ip>
+```
+
 #### 2. Change to the dataset directory and download the file(s) you want
 You can selectively download what you need (e.g. derivatives only).
 ```bash
