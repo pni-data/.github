@@ -1,13 +1,16 @@
 # Research Data Repositories
 *A collection of GitHub siblings of DataLad datasets. Included datasets require access credentials.*
 
-## Contens
+## Quick Contens
 - [TRR289 datasets](https://github.com/search?q=topic%3Atrr289+org%3Apni-data&type=Repositories)
 - [Pain sensitivity datasets (RPN)](https://github.com/search?q=topic%3Arpn+org%3Apni-data&type=Repositories)
 - [SFB1280 datasets](https://github.com/search?q=topic%3Asfb1280+org%3Apni-data&type=Repositories)
 - [Derivative datasets](https://github.com/search?q=topic%3Aderivatives+org%3Apni-data&type=Repositories)
 - [BIDS-MEGA (BEP-035) example datasets](https://github.com/search?q=topic%3Abep035+org%3Apni-data&type=Repositories) ([see also](https://bids.neuroimaging.io/get_involved.html#extending-the-bids-specification))
 - [PUMI example and test datasets](https://github.com/search?q=topic%3Apumi+org%3Apni-data&type=Repositories)
+
+[**Browse all datasets**](https://github.com/orgs/pni-data/repositories)
+
 
 ----------------------
 ## Quickstart Guide
