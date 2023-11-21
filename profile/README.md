@@ -3,6 +3,11 @@
 
 ## Contens
 - [TRR289 datasets](https://github.com/search?q=topic%3Atrr289+org%3Apni-data&type=Repositories)
+- [Pain sensitivity datasets (RPN)](https://github.com/search?q=topic%3Arpn+org%3Apni-data&type=Repositories)
+- [SFB1280 datasets](https://github.com/search?q=topic%3Asfb1280+org%3Apni-data&type=Repositories)
+- [Datasets with derivatives](https://github.com/search?q=topic%3Aderivatives+org%3Apni-data&type=Repositories)
+- [BIDS-MEGA (BEP-035) example datasets](https://github.com/search?q=topic%3Abep035+org%3Apni-data&type=Repositories) ([see also](https://bids.neuroimaging.io/get_involved.html#extending-the-bids-specification))
+- [PUMI example and test datasets](https://github.com/search?q=topic%3Apumi+org%3Apni-data&type=Repositories)
 
 ----------------------
 ## Quickstart Guide
