@@ -1,4 +1,4 @@
-# TRR289 RDM
+# Research Data Repositories
 *A collection of GitHub siblings of DataLad datasets. Included datasets require access credentials.*
 
 ## Contens
