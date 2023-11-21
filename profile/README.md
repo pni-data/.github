@@ -1,7 +1,7 @@
 # Research Data Repositories
 *A collection of GitHub siblings of DataLad datasets. Included datasets require access credentials.*
 
-## Quick Contens
+## Quick Contents
 - [TRR289 datasets](https://github.com/search?q=topic%3Atrr289+org%3Apni-data&type=Repositories)
 - [Pain sensitivity datasets (RPN)](https://github.com/search?q=topic%3Arpn+org%3Apni-data&type=Repositories)
 - [SFB1280 datasets](https://github.com/search?q=topic%3Asfb1280+org%3Apni-data&type=Repositories)
