@@ -94,7 +94,7 @@ datalad save .
 #### 2. Unannex small, public meta-data files
 E.g. readme.md and dataset_description.json (this way these will be directly visible in github)
 ```bash
-git annex unannex readme.md
+datalad no-annex --pattern readme.md
 datalad save .
 ```
 
