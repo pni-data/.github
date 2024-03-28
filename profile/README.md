@@ -1,5 +1,5 @@
 # Research Data Repositories
-*A collection of GitHub siblings of DataLad datasets. Included datasets require access credentials.*
+*A collection of GitHub siblings of DataLad datasets. Some of the included datasets require access credentials.*
 
 ## Quick Contents
 - [TRR289 datasets](https://github.com/search?q=topic%3Atrr289+org%3Apni-data&type=Repositories)
